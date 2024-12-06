@@ -8,16 +8,16 @@ public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "cli_id") // Especifica la columna en la base de datos
+    @Column(name = "cli_id")
     private Long id;
 
-    @Column(name = "cli_nombre") // Especifica la columna en la base de datos
+    @Column(name = "cli_nombre")
     private String nombre;
 
-    @Column(name = "cli_apellido") // Especifica la columna en la base de datos
+    @Column(name = "cli_apellido")
     private String apellido;
 
-    @Column(name = "cli_cedula") // Especifica la columna en la base de datos
+    @Column(name = "cli_cedula")
     private String cedula;
 
     // Getters y setters
